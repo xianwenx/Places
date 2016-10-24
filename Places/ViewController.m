@@ -7,23 +7,55 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "CoreDataControlling.h"
+#import "Place+CoreDataClass.h"
+@interface ViewController () <CoreDataControlling>
 
 @end
 
 @implementation ViewController
+@synthesize coreDataController = _coreDataController;
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSManagedObjectContext *managedObjectContext = [[[self coreDataController] persistentContainer] viewContext];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(managedObjectContextObjectsDidChange:) name:NSManagedObjectContextObjectsDidChangeNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(managedObjectContextWillSave:) name:NSManagedObjectContextWillSaveNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(managedObjectContextDidSave:) name:NSManagedObjectContextDidSaveNotification object:nil];
+
     // Do any additional setup after loading the view, typically from a nib.
+    [self reloadData];
 }
 
+- (void)reloadData {
+    NSFetchRequest *fetchRequest = [Place fetchRequest];
+    NSError *error = nil;
+    
+    NSArray *array = [[[[self coreDataController] persistentContainer] viewContext] executeFetchRequest:fetchRequest error:&error];
+    NSLog(@"array: %@");
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
+
+- (void)managedObjectContextObjectsDidChange:(NSNotification *)notification {
+    [self reloadData];
+}
+
+- (void)managedObjectContextWillSave:(NSNotification *)notification {
+}
+
+- (void)managedObjectContextDidSave:(NSNotification *)notification {
+}
+
+- (void)dealloc {
+    NSManagedObjectContext *managedObjectContext = [[[self coreDataController] persistentContainer] viewContext];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:NSManagedObjectContextDidSaveNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:NSManagedObjectContextWillSaveNotification object:nil];
+
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:NSManagedObjectContextObjectsDidChangeNotification object:nil];
+}
+
 
 
 @end

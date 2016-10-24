@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5186FCC1DBA9FD300013112 /* DeletedCloudKitObject+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E5186FC91DBA9FD300013112 /* DeletedCloudKitObject+CoreDataClass.m */; };
+		E5186FCD1DBA9FD300013112 /* DeletedCloudKitObject+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E5186FCB1DBA9FD300013112 /* DeletedCloudKitObject+CoreDataProperties.m */; };
+		E5186FD21DBAA13D00013112 /* ProcessSyncChangesOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E5186FD11DBAA13D00013112 /* ProcessSyncChangesOperation.m */; };
+		E5186FD51DBAA15000013112 /* SaveChangedRecordsToCoreDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E5186FD41DBAA15000013112 /* SaveChangedRecordsToCoreDataOperation.m */; };
+		E5186FD81DBAA15A00013112 /* ClearDeletedCloudKitObjectsOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E5186FD71DBAA15A00013112 /* ClearDeletedCloudKitObjectsOperation.m */; };
+		E5186FDB1DBAA16C00013112 /* CreateRecordsForNewObjectsOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E5186FDA1DBAA16C00013112 /* CreateRecordsForNewObjectsOperation.m */; };
+		E5186FDE1DBAA1B100013112 /* FetchOfflineChangesFromCoreDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E5186FDD1DBAA1B100013112 /* FetchOfflineChangesFromCoreDataOperation.m */; };
+		E5186FE61DBAA22900013112 /* FetchAllSubscriptionsOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E5186FE51DBAA22900013112 /* FetchAllSubscriptionsOperation.m */; };
+		E5186FE91DBAA23500013112 /* ProcessServerSubscriptionsOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E5186FE81DBAA23500013112 /* ProcessServerSubscriptionsOperation.m */; };
+		E5186FEC1DBAA24800013112 /* FetchRecordsForModifiedObjectsOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E5186FEB1DBAA24800013112 /* FetchRecordsForModifiedObjectsOperation.m */; };
+		E5186FEF1DBAA25300013112 /* ModifyRecordsFromManagedObjectsOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E5186FEE1DBAA25300013112 /* ModifyRecordsFromManagedObjectsOperation.m */; };
+		E5186FF21DBAA26200013112 /* FetchRecordChangesForCloudKitZoneOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E5186FF11DBAA26200013112 /* FetchRecordChangesForCloudKitZoneOperation.m */; };
+		E5186FF51DBABA6300013112 /* CloudKitController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5186FF41DBABA6300013112 /* CloudKitController.m */; };
+		E5186FF81DBAD35E00013112 /* CloudKitZone.m in Sources */ = {isa = PBXBuildFile; fileRef = E5186FF71DBAD35E00013112 /* CloudKitZone.m */; };
+		E5186FFC1DBB1AD700013112 /* FetchAllRecordZonesOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E5186FFB1DBB1AD700013112 /* FetchAllRecordZonesOperation.m */; };
+		E5186FFF1DBB1B8100013112 /* ProcessServerRecordZonesOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E5186FFE1DBB1B8100013112 /* ProcessServerRecordZonesOperation.m */; };
 		E5E7EAD81DB9C30B003B6A10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E7EAD71DB9C30B003B6A10 /* main.m */; };
 		E5E7EADB1DB9C30B003B6A10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E7EADA1DB9C30B003B6A10 /* AppDelegate.m */; };
 		E5E7EADE1DB9C30B003B6A10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E7EADD1DB9C30B003B6A10 /* ViewController.m */; };
@@ -16,6 +32,12 @@
 		E5E7EAE91DB9C30B003B6A10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E7EAE71DB9C30B003B6A10 /* LaunchScreen.storyboard */; };
 		E5E7EAF41DB9C30B003B6A10 /* PlacesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E7EAF31DB9C30B003B6A10 /* PlacesTests.m */; };
 		E5E7EAFF1DB9C30B003B6A10 /* PlacesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E7EAFE1DB9C30B003B6A10 /* PlacesUITests.m */; };
+		E5E7EB151DB9ED7F003B6A10 /* CoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E7EB141DB9ED7F003B6A10 /* CoreDataController.m */; };
+		E5E7EB191DB9EF37003B6A10 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E7EB181DB9EF37003B6A10 /* CloudKit.framework */; };
+		E5E7EB211DB9F130003B6A10 /* Place+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E7EB1E1DB9F130003B6A10 /* Place+CoreDataClass.m */; };
+		E5E7EB221DB9F130003B6A10 /* Place+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E7EB201DB9F130003B6A10 /* Place+CoreDataProperties.m */; };
+		E5E7EB251DB9F1D0003B6A10 /* CloudKitManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E7EB241DB9F1D0003B6A10 /* CloudKitManagedObject.m */; };
+		E5E7EB291DB9F3B0003B6A10 /* CloudKitRecordIDObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E7EB281DB9F3B0003B6A10 /* CloudKitRecordIDObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +58,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E5186FC81DBA9FD300013112 /* DeletedCloudKitObject+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DeletedCloudKitObject+CoreDataClass.h"; sourceTree = "<group>"; };
+		E5186FC91DBA9FD300013112 /* DeletedCloudKitObject+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DeletedCloudKitObject+CoreDataClass.m"; sourceTree = "<group>"; };
+		E5186FCA1DBA9FD300013112 /* DeletedCloudKitObject+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DeletedCloudKitObject+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E5186FCB1DBA9FD300013112 /* DeletedCloudKitObject+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DeletedCloudKitObject+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E5186FD01DBAA13D00013112 /* ProcessSyncChangesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessSyncChangesOperation.h; sourceTree = "<group>"; };
+		E5186FD11DBAA13D00013112 /* ProcessSyncChangesOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessSyncChangesOperation.m; sourceTree = "<group>"; };
+		E5186FD31DBAA15000013112 /* SaveChangedRecordsToCoreDataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveChangedRecordsToCoreDataOperation.h; sourceTree = "<group>"; };
+		E5186FD41DBAA15000013112 /* SaveChangedRecordsToCoreDataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveChangedRecordsToCoreDataOperation.m; sourceTree = "<group>"; };
+		E5186FD61DBAA15A00013112 /* ClearDeletedCloudKitObjectsOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClearDeletedCloudKitObjectsOperation.h; sourceTree = "<group>"; };
+		E5186FD71DBAA15A00013112 /* ClearDeletedCloudKitObjectsOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClearDeletedCloudKitObjectsOperation.m; sourceTree = "<group>"; };
+		E5186FD91DBAA16C00013112 /* CreateRecordsForNewObjectsOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateRecordsForNewObjectsOperation.h; sourceTree = "<group>"; };
+		E5186FDA1DBAA16C00013112 /* CreateRecordsForNewObjectsOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateRecordsForNewObjectsOperation.m; sourceTree = "<group>"; };
+		E5186FDC1DBAA1B100013112 /* FetchOfflineChangesFromCoreDataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchOfflineChangesFromCoreDataOperation.h; sourceTree = "<group>"; };
+		E5186FDD1DBAA1B100013112 /* FetchOfflineChangesFromCoreDataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchOfflineChangesFromCoreDataOperation.m; sourceTree = "<group>"; };
+		E5186FE41DBAA22900013112 /* FetchAllSubscriptionsOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchAllSubscriptionsOperation.h; sourceTree = "<group>"; };
+		E5186FE51DBAA22900013112 /* FetchAllSubscriptionsOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchAllSubscriptionsOperation.m; sourceTree = "<group>"; };
+		E5186FE71DBAA23500013112 /* ProcessServerSubscriptionsOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessServerSubscriptionsOperation.h; sourceTree = "<group>"; };
+		E5186FE81DBAA23500013112 /* ProcessServerSubscriptionsOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessServerSubscriptionsOperation.m; sourceTree = "<group>"; };
+		E5186FEA1DBAA24800013112 /* FetchRecordsForModifiedObjectsOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchRecordsForModifiedObjectsOperation.h; sourceTree = "<group>"; };
+		E5186FEB1DBAA24800013112 /* FetchRecordsForModifiedObjectsOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchRecordsForModifiedObjectsOperation.m; sourceTree = "<group>"; };
+		E5186FED1DBAA25300013112 /* ModifyRecordsFromManagedObjectsOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModifyRecordsFromManagedObjectsOperation.h; sourceTree = "<group>"; };
+		E5186FEE1DBAA25300013112 /* ModifyRecordsFromManagedObjectsOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModifyRecordsFromManagedObjectsOperation.m; sourceTree = "<group>"; };
+		E5186FF01DBAA26200013112 /* FetchRecordChangesForCloudKitZoneOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchRecordChangesForCloudKitZoneOperation.h; sourceTree = "<group>"; };
+		E5186FF11DBAA26200013112 /* FetchRecordChangesForCloudKitZoneOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchRecordChangesForCloudKitZoneOperation.m; sourceTree = "<group>"; };
+		E5186FF31DBABA6300013112 /* CloudKitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudKitController.h; sourceTree = "<group>"; };
+		E5186FF41DBABA6300013112 /* CloudKitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudKitController.m; sourceTree = "<group>"; };
+		E5186FF61DBAD35E00013112 /* CloudKitZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudKitZone.h; sourceTree = "<group>"; };
+		E5186FF71DBAD35E00013112 /* CloudKitZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudKitZone.m; sourceTree = "<group>"; };
+		E5186FFA1DBB1AD700013112 /* FetchAllRecordZonesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchAllRecordZonesOperation.h; sourceTree = "<group>"; };
+		E5186FFB1DBB1AD700013112 /* FetchAllRecordZonesOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchAllRecordZonesOperation.m; sourceTree = "<group>"; };
+		E5186FFD1DBB1B8100013112 /* ProcessServerRecordZonesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessServerRecordZonesOperation.h; sourceTree = "<group>"; };
+		E5186FFE1DBB1B8100013112 /* ProcessServerRecordZonesOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessServerRecordZonesOperation.m; sourceTree = "<group>"; };
 		E5E7EAD31DB9C30B003B6A10 /* Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Places.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E7EAD71DB9C30B003B6A10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E5E7EAD91DB9C30B003B6A10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +107,19 @@
 		E5E7EAFA1DB9C30B003B6A10 /* PlacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E7EAFE1DB9C30B003B6A10 /* PlacesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlacesUITests.m; sourceTree = "<group>"; };
 		E5E7EB001DB9C30B003B6A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5E7EB121DB9C876003B6A10 /* CoreDataControlling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataControlling.h; sourceTree = "<group>"; };
+		E5E7EB131DB9ED7F003B6A10 /* CoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataController.h; sourceTree = "<group>"; };
+		E5E7EB141DB9ED7F003B6A10 /* CoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataController.m; sourceTree = "<group>"; };
+		E5E7EB161DB9EF35003B6A10 /* Places.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Places.entitlements; sourceTree = "<group>"; };
+		E5E7EB181DB9EF37003B6A10 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		E5E7EB1D1DB9F130003B6A10 /* Place+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Place+CoreDataClass.h"; sourceTree = "<group>"; };
+		E5E7EB1E1DB9F130003B6A10 /* Place+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Place+CoreDataClass.m"; sourceTree = "<group>"; };
+		E5E7EB1F1DB9F130003B6A10 /* Place+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Place+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E5E7EB201DB9F130003B6A10 /* Place+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Place+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E5E7EB231DB9F1D0003B6A10 /* CloudKitManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudKitManagedObject.h; sourceTree = "<group>"; };
+		E5E7EB241DB9F1D0003B6A10 /* CloudKitManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudKitManagedObject.m; sourceTree = "<group>"; };
+		E5E7EB271DB9F3B0003B6A10 /* CloudKitRecordIDObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudKitRecordIDObject.h; sourceTree = "<group>"; };
+		E5E7EB281DB9F3B0003B6A10 /* CloudKitRecordIDObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudKitRecordIDObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E7EB191DB9EF37003B6A10 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +148,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E5186FCE1DBAA11E00013112 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				E5186FF91DBB199500013112 /* Zones */,
+				E5186FDF1DBAA1BA00013112 /* Sync */,
+				E5186FE01DBAA1C100013112 /* Core Data */,
+				E5186FE21DBAA1EC00013112 /* Subscription */,
+				E5186FE31DBAA1F500013112 /* Records */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		E5186FCF1DBAA12700013112 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E5186FC81DBA9FD300013112 /* DeletedCloudKitObject+CoreDataClass.h */,
+				E5186FC91DBA9FD300013112 /* DeletedCloudKitObject+CoreDataClass.m */,
+				E5186FCA1DBA9FD300013112 /* DeletedCloudKitObject+CoreDataProperties.h */,
+				E5186FCB1DBA9FD300013112 /* DeletedCloudKitObject+CoreDataProperties.m */,
+				E5E7EB1E1DB9F130003B6A10 /* Place+CoreDataClass.m */,
+				E5E7EB1D1DB9F130003B6A10 /* Place+CoreDataClass.h */,
+				E5E7EB1F1DB9F130003B6A10 /* Place+CoreDataProperties.h */,
+				E5E7EB201DB9F130003B6A10 /* Place+CoreDataProperties.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		E5186FDF1DBAA1BA00013112 /* Sync */ = {
+			isa = PBXGroup;
+			children = (
+				E5186FD01DBAA13D00013112 /* ProcessSyncChangesOperation.h */,
+				E5186FD11DBAA13D00013112 /* ProcessSyncChangesOperation.m */,
+			);
+			name = Sync;
+			sourceTree = "<group>";
+		};
+		E5186FE01DBAA1C100013112 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				E5186FD31DBAA15000013112 /* SaveChangedRecordsToCoreDataOperation.h */,
+				E5186FD41DBAA15000013112 /* SaveChangedRecordsToCoreDataOperation.m */,
+				E5186FD61DBAA15A00013112 /* ClearDeletedCloudKitObjectsOperation.h */,
+				E5186FD71DBAA15A00013112 /* ClearDeletedCloudKitObjectsOperation.m */,
+				E5186FD91DBAA16C00013112 /* CreateRecordsForNewObjectsOperation.h */,
+				E5186FDA1DBAA16C00013112 /* CreateRecordsForNewObjectsOperation.m */,
+				E5186FDC1DBAA1B100013112 /* FetchOfflineChangesFromCoreDataOperation.h */,
+				E5186FDD1DBAA1B100013112 /* FetchOfflineChangesFromCoreDataOperation.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		E5186FE21DBAA1EC00013112 /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				E5186FE41DBAA22900013112 /* FetchAllSubscriptionsOperation.h */,
+				E5186FE51DBAA22900013112 /* FetchAllSubscriptionsOperation.m */,
+				E5186FE71DBAA23500013112 /* ProcessServerSubscriptionsOperation.h */,
+				E5186FE81DBAA23500013112 /* ProcessServerSubscriptionsOperation.m */,
+			);
+			name = Subscription;
+			sourceTree = "<group>";
+		};
+		E5186FE31DBAA1F500013112 /* Records */ = {
+			isa = PBXGroup;
+			children = (
+				E5186FEA1DBAA24800013112 /* FetchRecordsForModifiedObjectsOperation.h */,
+				E5186FEB1DBAA24800013112 /* FetchRecordsForModifiedObjectsOperation.m */,
+				E5186FED1DBAA25300013112 /* ModifyRecordsFromManagedObjectsOperation.h */,
+				E5186FEE1DBAA25300013112 /* ModifyRecordsFromManagedObjectsOperation.m */,
+				E5186FF01DBAA26200013112 /* FetchRecordChangesForCloudKitZoneOperation.h */,
+				E5186FF11DBAA26200013112 /* FetchRecordChangesForCloudKitZoneOperation.m */,
+			);
+			name = Records;
+			sourceTree = "<group>";
+		};
+		E5186FF91DBB199500013112 /* Zones */ = {
+			isa = PBXGroup;
+			children = (
+				E5186FFA1DBB1AD700013112 /* FetchAllRecordZonesOperation.h */,
+				E5186FFB1DBB1AD700013112 /* FetchAllRecordZonesOperation.m */,
+				E5186FFD1DBB1B8100013112 /* ProcessServerRecordZonesOperation.h */,
+				E5186FFE1DBB1B8100013112 /* ProcessServerRecordZonesOperation.m */,
+			);
+			name = Zones;
+			sourceTree = "<group>";
+		};
 		E5E7EACA1DB9C30B003B6A10 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +241,7 @@
 				E5E7EAF21DB9C30B003B6A10 /* PlacesTests */,
 				E5E7EAFD1DB9C30B003B6A10 /* PlacesUITests */,
 				E5E7EAD41DB9C30B003B6A10 /* Products */,
+				E5E7EB171DB9EF37003B6A10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,16 +258,30 @@
 		E5E7EAD51DB9C30B003B6A10 /* Places */ = {
 			isa = PBXGroup;
 			children = (
+				E5186FCE1DBAA11E00013112 /* Operations */,
+				E5186FF31DBABA6300013112 /* CloudKitController.h */,
+				E5186FF41DBABA6300013112 /* CloudKitController.m */,
+				E5186FCF1DBAA12700013112 /* Entities */,
+				E5E7EB161DB9EF35003B6A10 /* Places.entitlements */,
 				E5E7EAD91DB9C30B003B6A10 /* AppDelegate.h */,
 				E5E7EADA1DB9C30B003B6A10 /* AppDelegate.m */,
 				E5E7EADC1DB9C30B003B6A10 /* ViewController.h */,
 				E5E7EADD1DB9C30B003B6A10 /* ViewController.m */,
+				E5E7EB121DB9C876003B6A10 /* CoreDataControlling.h */,
+				E5E7EB131DB9ED7F003B6A10 /* CoreDataController.h */,
+				E5E7EB141DB9ED7F003B6A10 /* CoreDataController.m */,
 				E5E7EADF1DB9C30B003B6A10 /* Main.storyboard */,
 				E5E7EAE51DB9C30B003B6A10 /* Assets.xcassets */,
 				E5E7EAE71DB9C30B003B6A10 /* LaunchScreen.storyboard */,
 				E5E7EAEA1DB9C30B003B6A10 /* Info.plist */,
 				E5E7EAE21DB9C30B003B6A10 /* Places.xcdatamodeld */,
 				E5E7EAD61DB9C30B003B6A10 /* Supporting Files */,
+				E5E7EB231DB9F1D0003B6A10 /* CloudKitManagedObject.h */,
+				E5E7EB241DB9F1D0003B6A10 /* CloudKitManagedObject.m */,
+				E5E7EB271DB9F3B0003B6A10 /* CloudKitRecordIDObject.h */,
+				E5E7EB281DB9F3B0003B6A10 /* CloudKitRecordIDObject.m */,
+				E5186FF61DBAD35E00013112 /* CloudKitZone.h */,
+				E5186FF71DBAD35E00013112 /* CloudKitZone.m */,
 			);
 			path = Places;
 			sourceTree = "<group>";
@@ -141,6 +310,14 @@
 				E5E7EB001DB9C30B003B6A10 /* Info.plist */,
 			);
 			path = PlacesUITests;
+			sourceTree = "<group>";
+		};
+		E5E7EB171DB9EF37003B6A10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5E7EB181DB9EF37003B6A10 /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +389,14 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 24N2T7LSNJ;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					E5E7EAEE1DB9C30B003B6A10 = {
 						CreatedOnToolsVersion = 8.0;
@@ -279,8 +464,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5186FF81DBAD35E00013112 /* CloudKitZone.m in Sources */,
+				E5186FD81DBAA15A00013112 /* ClearDeletedCloudKitObjectsOperation.m in Sources */,
+				E5E7EB221DB9F130003B6A10 /* Place+CoreDataProperties.m in Sources */,
+				E5186FE61DBAA22900013112 /* FetchAllSubscriptionsOperation.m in Sources */,
+				E5186FF21DBAA26200013112 /* FetchRecordChangesForCloudKitZoneOperation.m in Sources */,
+				E5186FF51DBABA6300013112 /* CloudKitController.m in Sources */,
+				E5186FE91DBAA23500013112 /* ProcessServerSubscriptionsOperation.m in Sources */,
+				E5186FD21DBAA13D00013112 /* ProcessSyncChangesOperation.m in Sources */,
+				E5186FDE1DBAA1B100013112 /* FetchOfflineChangesFromCoreDataOperation.m in Sources */,
 				E5E7EADE1DB9C30B003B6A10 /* ViewController.m in Sources */,
+				E5E7EB211DB9F130003B6A10 /* Place+CoreDataClass.m in Sources */,
 				E5E7EADB1DB9C30B003B6A10 /* AppDelegate.m in Sources */,
+				E5186FFF1DBB1B8100013112 /* ProcessServerRecordZonesOperation.m in Sources */,
+				E5186FCC1DBA9FD300013112 /* DeletedCloudKitObject+CoreDataClass.m in Sources */,
+				E5186FCD1DBA9FD300013112 /* DeletedCloudKitObject+CoreDataProperties.m in Sources */,
+				E5186FEF1DBAA25300013112 /* ModifyRecordsFromManagedObjectsOperation.m in Sources */,
+				E5E7EB151DB9ED7F003B6A10 /* CoreDataController.m in Sources */,
+				E5E7EB251DB9F1D0003B6A10 /* CloudKitManagedObject.m in Sources */,
+				E5186FDB1DBAA16C00013112 /* CreateRecordsForNewObjectsOperation.m in Sources */,
+				E5186FD51DBAA15000013112 /* SaveChangedRecordsToCoreDataOperation.m in Sources */,
+				E5186FFC1DBB1AD700013112 /* FetchAllRecordZonesOperation.m in Sources */,
+				E5186FEC1DBAA24800013112 /* FetchRecordsForModifiedObjectsOperation.m in Sources */,
+				E5E7EB291DB9F3B0003B6A10 /* CloudKitRecordIDObject.m in Sources */,
 				E5E7EAD81DB9C30B003B6A10 /* main.m in Sources */,
 				E5E7EAE41DB9C30B003B6A10 /* Places.xcdatamodeld in Sources */,
 			);
@@ -431,6 +637,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Places/Places.entitlements;
 				DEVELOPMENT_TEAM = 24N2T7LSNJ;
 				INFOPLIST_FILE = Places/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -443,6 +650,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Places/Places.entitlements;
 				DEVELOPMENT_TEAM = 24N2T7LSNJ;
 				INFOPLIST_FILE = Places/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -520,6 +728,7 @@
 				E5E7EB051DB9C30B003B6A10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5E7EB061DB9C30B003B6A10 /* Build configuration list for PBXNativeTarget "PlacesTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +737,7 @@
 				E5E7EB081DB9C30B003B6A10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5E7EB091DB9C30B003B6A10 /* Build configuration list for PBXNativeTarget "PlacesUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +746,7 @@
 				E5E7EB0B1DB9C30B003B6A10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
